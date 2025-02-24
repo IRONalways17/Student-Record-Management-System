@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+       background-color: #f8f9fa;
+       min-height: 100vh;
+       display: flex;
+       flex-direction: column;
+   }
+   
+   /* Navbar Styles */
+   .navbar {
+       box-shadow: 0 2px 4px rgba(0,0,0,.1);
+   }
+   
+   .navbar-brand i {
+       margin-right: 8px;
+   }
+   
+   /* Card Styles */
+   .card {
+       box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+       border: none;
+       margin-bottom: 1.5rem;
+   }
+   
+   .card-header {
+       background-color: #f8f9fa;
+       border-bottom: 1px solid rgba(0,0,0,.125);
+   }
+   
+   /* Table Styles */
+   .table {
+       background-color: white;
+       margin-bottom: 0;
+   }
+   
+   .table thead th {
+       border-top: none;
+   }
+   
+   /* Button Styles */
+   .btn {
+       margin-right: 0.25rem;
+   }
+   
+   .btn i {
+       margin-right: 5px;
+   }
+   
+   /* Alert Styles */
+   .alert {
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+   }
+   
+   /* Form Styles */
+   .form-label {
+       font-weight: 500;
+   }
+   
+   .form-control:focus {
+       border-color: #80bdff;
+       box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+   }
+   
+   /* Footer Styles */
+   .footer {
+       margin-top: auto;
+       background-color: #f8f9fa;
+       padding: 1rem 0;
+       border-top: 1px solid #dee2e6;
+   }
+   
+   /* Pagination Styles */
+   .pagination {
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+   }
+   
+   /* Search Box Styles */
+   #searchInput {
+       border-radius: 0 4px 4px 0;
+   }
+   
+   /* Responsive Styles */
+   @media (max-width: 768px) {
+       .btn {
+           margin-bottom: 0.5rem;
+           width: 100%;
+       }
+       
+       .table-responsive {
+           margin-bottom: 1rem;
+       }
+   }
